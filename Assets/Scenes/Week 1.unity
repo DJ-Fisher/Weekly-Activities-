@@ -210,11 +210,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 7.3, y: 11.588, z: -3.52}
+  m_LocalScale: {x: 1.0862, y: 1.0862, z: 1.0862}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -292,13 +292,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.19404656, y: 0.013440246, z: -0.4398941, w: 0.87673175}
+  m_LocalPosition: {x: -0.59000206, y: -1.2109978, z: -3.2030005}
+  m_LocalScale: {x: 0.2912732, y: 0.287956, z: 0.29464594}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1922832220}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -19.173, y: 11.87, z: -55.302}
 --- !u!1 &1922832216
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,7 +351,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 177445219ceecbd41bf9145af81f73f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -388,13 +388,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922832216}
-  m_LocalRotation: {x: 0.28629217, y: -0.06882606, z: 0.38179132, w: 0.8760908}
-  m_LocalPosition: {x: 2.868, y: 5.191, z: 1.685}
-  m_LocalScale: {x: 2.6507, y: 2.6507, z: 13.699614}
-  m_Children: []
+  m_LocalRotation: {x: -0.30637214, y: 0.04443532, z: -0.44313323, w: -0.8413053}
+  m_LocalPosition: {x: 3.9069, y: 5.0846, z: 1.5214}
+  m_LocalScale: {x: 2.4891517, y: 2.2947059, z: 3.2888224}
+  m_Children:
+  - {fileID: 963194228}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 33.655, y: 6.762, z: 49.141}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 33.703, y: 373.681, z: 59.715}
 --- !u!114 &1922832221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,7 +413,7 @@ MonoBehaviour:
   birthDay: 30
   birthMonth: 1
   birthYear: 2003
-  height: 173
+  HeightCm: 173
   amWearingWatch: 0
   favNumber: 5
   sumOfAgeAndNumber: 0
